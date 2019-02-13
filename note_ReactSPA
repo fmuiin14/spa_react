@@ -1,0 +1,18 @@
+SPA in React.
+Routing adalah ketika kamu mencoba untuk memetakan alamat tujuan yg bukan halaman fisik, seperti tampilan individual di aplikasi satu halaman
+
+React Router, library yg bisa bikin routing pada SPA di React
+
+Pertama masuk ke folder proyek, kemudian: npm i react-router-dom --save
+
+NPM start itu dia nge render index.js(src) ,yang manggil si index.html(public)
+
+Bikin file Main.js (src)
+Bikin Home.js (src)
+Bikin Goku.js (src)
+Bikin Bezita.js (src)
+
+Utama ada di Main component, jadi pada Main buat routing:
+import Route, NavLink, dan HashRouter. lalu juga import home goku dan bezita.
+
+Tambahkan HashRouter.
